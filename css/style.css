@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    font-family: sans-serif ;
-    color: #fff
+    font-family: sans-serif;
+
 }
 
 body {
@@ -19,7 +19,6 @@ header {
     display: flex;
     align-items: center;
     padding: 10px;
-    
 }
 
 span {
@@ -30,7 +29,7 @@ span {
 
 nav {
     position: absolute;
-   right: 10px;
+    right: 10px;
 }
 
 
@@ -48,24 +47,68 @@ nav li {
 
 
 #hero {
-  display: flex;
+
+    display: flex;
     height: 600px;
     background-image: url(/images/hands-typing.jpg);
-    background-size:cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  filter: grayscale(70%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(70%);
 
-  align-items: center;
-  justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
+
     display: flex;
     max-width: 60%;
     background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
     text-shadow: #000;
     text-align: center;
     font-size: 2.5em;
-  
+    padding: 10px;
 }
+
+
+#about-me {
+    color: #000;
+
+    display: flex;
+
+}
+
+.wrapper {
+    max-width: 940px;
+    display: flex;
+    margin-left: 40px;
+    flex-wrap: none;
+    align-items: center;
+}
+
+#about-me img {
+    display: flex align-self: flex-end;
+    max-width: 240px;
+}
+
+.wrapper {
+    max-width: 940px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#services {
+display: flex;
+background-color: #fafafa;
+}
+
+#services h2 {
+    align-items: center;
+   
+
+}
+
+
