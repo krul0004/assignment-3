@@ -93,7 +93,7 @@ h1 {
     max-width: 940px;
     display: flex;
     margin: auto;
-    flex-wrap: none;
+    flex-wrap: nowrap;
     justify-items: center;
 }
 
